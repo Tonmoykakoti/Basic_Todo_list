@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #281a4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+span{
+    color: yellow;
+}
+.todo-box{
+    width: 800px;
+    height: 400px;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.8);
+    /* box-shadow: 0px 0px 8px rgba(255,255,0,0.8); */
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px ;
+    overflow:auto;
+}
+.todo-box input{
+    width: 70%;
+    height: 15%;
+    margin:30px 30px;
+    color: yellow;
+    font-weight: 700;
+    font-size: 20px;
+    background-color:#281a4e;
+    border: none;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.8);
+    text-align: center;
+}
+.add{
+    font-size: 1rem;
+    padding: 19px 46px;
+    margin-left: -10px;
+    border: 1px solid yellow;
+    background-color: rgb(255, 255, 0);
+    color: #000;
+    font-weight: 900;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+.add:hover{
+    box-shadow: 0px 0px 15px rgba(255,255,0,0.8);
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+    height: 15%;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.8);
+    margin-left: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+    /* border-top-right-radius:50px;
+    border-bottom-left-radius:50px ; */
+}
+.icons{
+    color: #fff;
+    position: relative;
+    top:0;
+    right: -180px;
+    font-size: 20px;
+}
+.done{
+    padding: 5px 10px;
+    font-weight: 900;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    margin-right: 8px;
+    transition: 0.4s;
+}
+.done:hover{
+    box-shadow: 0px 0px 15px rgba(255,255,0,0.8);
+}
+.remove{
+    padding: 5px 10px;
+    font-weight: 900;
+    border: none;
+    background-color: yellow;
+    /* box-shadow: 0px 0px 15px rgba(255,255,0,0.8); */
+    border-radius: 5px;
+    transition: 0.4s;
+
+}
+.remove:hover{
+    box-shadow: 0px 0px 15px rgba(255,255,0,0.8);
+}
+.list h2{
+    font-size: 16px;
+    word-wrap: break-word;
+    color: yellow;
+}
